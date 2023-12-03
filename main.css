@@ -49,7 +49,7 @@ body {
     background-color: rgba(255, 255, 255, 0.437);
 }
 
-#dashboard {
+#home {
     top: 0;
     display: flex;
     height: 90vh;
@@ -59,37 +59,19 @@ body {
     background-image: url('img/cta-bg.jpg');
 }
 
-#dashboard-heading {
+#home-heading {
     font-size: 80px;
     margin-top: 0px;
     margin-bottom: 0px;
     color: white;
 }
 
-#dashboard-caption {
+#home-caption {
     margin-top: 30px;
     color: white;
 }
 
-/* .slider {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    background-image: url('img/about-bg.jpg');
-    background-position: center;
-    background-size: cover;
-
-    transition: all 0.7s;
-
-    padding-top: 50px;
-}
-
-.slider.close {
-    top: 100%;
-    height: 0;
-} */
-
-#section2 {
+#about-us {
     display: flex;
     align-items: center;
     background-image: url('img/about-bg.jpg');
@@ -97,15 +79,15 @@ body {
     padding-bottom: 50px;
 }
 
-.section2-main-heading {
+.about-us-main-heading {
     font-size: xx-large;
 }
 
-.section2-headings {
+.about-us-headings {
     color: #28424f;
 }
 
-.section2-paragraphs {
+.about-us-paragraphs {
     font-size: medium;
     color: #3a3a3a;
 }
@@ -126,7 +108,7 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-#section3 {
+#services {
     text-align: center;
     background-color: #fdfdfd;
     padding-top: 50px;
@@ -135,14 +117,14 @@ body {
     padding-bottom: 100px;
 }
 
-#section3-cards-container {
+#services-cards-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 30px;
 }
 
-.section3-card {
+.services-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -199,7 +181,7 @@ body {
     background: none;
 }
 
-#section6 {
+#portfolio {
     color: #29424e;
     display: flex;
     flex-direction: column;
@@ -209,17 +191,17 @@ body {
     padding-bottom: 50px;
 }
 
-#section6-heading {
+#portfolio-heading {
     margin-bottom: 20px;
 }
 
-#section6-paragraph {
+#portfolio-paragraph {
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 35px;
 }
 
-#section6-nav {
+#portfolio-nav {
     font-size: medium;
     background-color: #e8f3f7;
     padding: 20px;
@@ -230,18 +212,22 @@ body {
     padding-right: 40px;
 }
 
-.section6-nav-links {
+#portfolio-nav a {
+    cursor: pointer;
+}
+
+.portfolio-nav-links {
     color: #2f434d;
     text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.section6-nav-links:hover {
+.portfolio-nav-links:hover {
     color: #68a2bf;
 }
 
-#section6-grid1 {
+#portfolio-grid1 {
     margin-top: 50px;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -249,11 +235,11 @@ body {
     gap: 30px;
 }
 
-.section6-grid1-img img {
+.portfolio-grid1-img img {
     width: 400px;
 }
 
-#section7 {
+#team {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -264,7 +250,7 @@ body {
     padding-bottom: 50px;
 }
 
-#section7-cards-container {
+#team-cards-container {
     display: flex;
     gap: 30px;
     justify-content: space-evenly;
@@ -272,20 +258,20 @@ body {
     margin-top: 10px;
 }
 
-.section7-card {
+.team-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.section7-card img {
+.team-card img {
     width: 100px;
     height: 100px;
     border-radius: 100%;
 }
 
-.section7-tcard {
+.team-tcard {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 50px;
     padding: 30px;
@@ -298,12 +284,12 @@ body {
     text-align: center;
 }
 
-.section7-card-name {
+.team-card-name {
     font-weight: 800;
     margin-bottom: 0;
 }
 
-.section7-card-position {
+.team-card-position {
     color: #919295;
     margin-top: 10px;
 }
@@ -336,9 +322,7 @@ body {
         margin: 5px 0;
     }
 
-    #dashboard-heading {
+    #home-heading {
         font-size: 40px;
     }
-
-    /* Add more styles as needed for mobile view */
 }
